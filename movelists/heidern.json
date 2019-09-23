@@ -1,0 +1,50 @@
+{
+  "names": {
+    "default": {
+      "roman": "Heidern"
+    },
+    "japan": {
+      "roman": "Heidern",
+      "original": "ハイデルン"
+    }
+  },
+  "images": {
+    "face": "heidern.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Lead Belcher",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Critical Drive",
+        "input": "{inAirAndClose}, :b: {or} :d: {or} :f:+[C]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Cross Cutter",
+        "input": "{charge} :b: :f:+[A] {or} [C]"
+      },
+      {
+        "name": "Moon Slasher",
+        "input": "{charge} :d: :u:+[A] {or} [C]"
+      },
+      {
+        "name": "Neck Roller",
+        "input": "{charge} :d: :u:+[B] {or} [D]"
+      },
+      {
+        "name": "Storm Bringer",
+        "input": "{close}, :hcb:+[C]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Final Bringer",
+        "input": "{charge} :b: :db::d::u:+[B]+[C]"
+      }
+    ]
+  }
+}
