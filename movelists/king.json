@@ -1,0 +1,56 @@
+{
+  "names": {
+    "default": {
+      "roman": "King"
+    },
+    "japan": {
+      "roman": "King",
+      "original": "キング"
+    }
+  },
+  "images": {
+    "face": "king.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Hook Buster",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Sliding",
+        "input": ":df:+[D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Venom Strike",
+        "input": ":qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Double Strike",
+        "input": ":f::b::f::df::d:+[B] {or} [D]"
+      },
+      {
+        "name": "Surprise Rose",
+        "input": ":qcb::ub:+[B] {or} [D]"
+      },
+      {
+        "name": "Trap Shot",
+        "input": ":dp:+[B] {or} [D]"
+      },
+      {
+        "name": "Tornado Kick",
+        "input": ":hcb:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Illusion Dance",
+        "input": ":b::hcb:+[B]+[D]"
+      }
+    ]
+  }
+}
