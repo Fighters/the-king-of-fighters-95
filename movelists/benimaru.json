@@ -1,0 +1,61 @@
+{
+  "names": {
+    "default": {
+      "roman": "Benimaru"
+    },
+    "japan": {
+      "roman": "Benimaru",
+      "original": "二階堂 紅丸"
+    }
+  },
+  "images": {
+    "face": "benimaru.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Front Suplex",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      },
+      {
+        "name": "Spinning Knee Drop",
+        "input": "{inAirAndClose}, :b: {or} :d: {or} :f:+[C]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Flying Drill",
+        "input": "{inAir}, :d:+[D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Raijinken",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Iai Geri",
+        "input": ":qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Hando Sandangeri",
+        "input": ":d::u:+[B] {or} [D]",
+        "after": "Iai Geri"
+      },
+      {
+        "name": "Super Inazuma Kick",
+        "input": ":d::u:+[B] {or} [D]"
+      },
+      {
+        "name": "Shinku Katategoma",
+        "input": ":hcb:+[B] {or} [D] ({press} [A]+[B]+[C]+[D] {toCancel})"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Raikoken",
+        "input": ":qcf::d::df:+[C]"
+      }
+    ]
+  }
+}
