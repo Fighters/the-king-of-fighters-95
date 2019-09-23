@@ -1,0 +1,46 @@
+{
+  "names": {
+    "default": {
+      "roman": "Chin"
+    },
+    "japan": {
+      "roman": "Chin",
+      "original": "鎮 元斎"
+    }
+  },
+  "images": {
+    "face": "chin.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Go Inshu",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Gyaku Ashi Nage",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Hyotan Geki",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Ryurin Horai",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "Kaitenteki Kutotsuken",
+        "input": ":hcf:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Goran Enho",
+        "input": ":qcf::d::df:+[C]"
+      }
+    ]
+  }
+}
