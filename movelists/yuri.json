@@ -42,6 +42,10 @@
         "input": ":qcb:+[A] {or} [C]"
       },
       {
+        "name": "Yuri Cho Upper",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
         "name": "Haoh Shokoken",
         "input": ":f::hcf:+[A] {or} [C]"
       },
