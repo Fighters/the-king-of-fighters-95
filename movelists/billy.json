@@ -1,0 +1,52 @@
+{
+  "names": {
+    "default": {
+      "roman": "Billy"
+    },
+    "japan": {
+      "roman": "Billy",
+      "original": "ビリー・カーン"
+    }
+  },
+  "images": {
+    "face": "billy.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Ippon Tsuri Nage",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Botakatobi Geri",
+        "input": ":f:+[D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Senpukon",
+        "input": "{tap} [A] {or} [C] {repeatedly}"
+      },
+      {
+        "name": "Sansetsukon Chudan Uchi",
+        "input": ":hcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Kyoshu Hishokon",
+        "input": ":db::qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Suzume Otoshi",
+        "input": ":qcb::ub:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Cho Kaen Senpukon",
+        "input": ":qcf::df::qcb:+[A]+[C]"
+      }
+    ]
+  }
+}
