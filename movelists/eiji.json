@@ -1,0 +1,58 @@
+{
+  "names": {
+    "default": {
+      "roman": "Eiji"
+    },
+    "japan": {
+      "roman": "Eiji",
+      "original": "如月 影二"
+    }
+  },
+  "images": {
+    "face": "eiji.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Kuchu Ippon Seoi",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Kikoho",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Ryueijin",
+        "input": ":hcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Kasumigiri",
+        "input": ":qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Koppagiri",
+        "input": ":hcb:+[B] {or} [D]"
+      },
+      {
+        "name": "Tenmakyaku",
+        "input": ":qcb::ub:+[B] {or} [D]"
+      },
+      {
+        "name": "Zantetsuha",
+        "input": ":qcf::df::qcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Kage Utsushi",
+        "input": ":qcf:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Zantetsu Toroken",
+        "input": ":hcf::df::d:+[B]"
+      }
+    ]
+  }
+}
