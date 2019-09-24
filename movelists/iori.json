@@ -1,0 +1,64 @@
+{
+  "names": {
+    "default": {
+      "roman": "Iori"
+    },
+    "japan": {
+      "roman": "Iori",
+      "original": "八神 庵"
+    }
+  },
+  "images": {
+    "face": "iori.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Sakahagi",
+        "input": "{close}, :b: {or} :f:+[C]"
+      },
+      {
+        "name": "Kuzukaze",
+        "input": "{close}, :b: {or} :f:+[D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Ge-Shiki: Yumebiki",
+        "input": ":f:+[C] > [C]"
+      },
+      {
+        "name": "Ge-Shiki: Gofu In 'Shinigami'",
+        "input": ":f:+[D]"
+      },
+      {
+        "name": "Ge-Shiki: Yuriori",
+        "input": "{inAir}, :b:+[D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "108 Shiki: Yamibarai",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "100 Shiki: Oniyaki",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "127 Shiki: Aoibana",
+        "input": ":qcb:+[A] {or} [C] ({upTo3x})"
+      },
+      {
+        "name": "212 Shiki: Kototsuki In",
+        "input": ":hcb:+[B] {or} [D]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Kin 1211 Shiki: Yaotome",
+        "input": ":qcb::db::qcf:+[C]"
+      }
+    ]
+  }
+}
