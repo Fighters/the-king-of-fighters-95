@@ -1,0 +1,48 @@
+{
+  "names": {
+    "default": {
+      "roman": "Saisyu"
+    },
+    "japan": {
+      "roman": "Saisyu",
+      "original": "草薙 柴舟"
+    }
+  },
+  "images": {
+    "face": "saisyu.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Issetsu Seoi Nage",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{commandMoves}": [
+      {
+        "name": "Ge-Shiki: Gotsuchi",
+        "input": ":f:+[C]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "108 Shiki: Yamibarai",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "100 Shiki: Oniyaki",
+        "input": ":dp:+[A] {or} [C]"
+      },
+      {
+        "name": "427 Shiki: Kamukakari",
+        "input": ":hcb:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Ura 108 Shiki: Orochinagi",
+        "input": ":qcb::db::qcf:+[C] ({hold} [C] {toDelay})"
+      }
+    ]
+  }
+}
