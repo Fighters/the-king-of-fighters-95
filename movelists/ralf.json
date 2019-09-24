@@ -1,0 +1,46 @@
+{
+  "names": {
+    "default": {
+      "roman": "Ralf"
+    },
+    "japan": {
+      "roman": "Ralf",
+      "original": "ラルフ・ジョーンズ"
+    }
+  },
+  "images": {
+    "face": "ralf.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Northern Light Bomb",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Vulcan Punch",
+        "input": "{tap} [A] {or} [C] {repeatedly}"
+      },
+      {
+        "name": "Gatling Attack",
+        "input": "{charge} :b: :f:+[A] {or} [C]"
+      },
+      {
+        "name": "Dive Bomber Punch",
+        "input": "{charge} :d: :u:+[A] {or} [C]"
+      },
+      {
+        "name": "Super Argentine Backbreaker",
+        "input": "{close}, :hcf:+[D]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Super Vulcan Punch",
+        "input": "{charge} :db: :b::f:+[C]"
+      }
+    ]
+  }
+}
