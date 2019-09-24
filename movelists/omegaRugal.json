@@ -1,0 +1,50 @@
+{
+  "names": {
+    "default": {
+      "roman": "Omega Rugal"
+    },
+    "japan": {
+      "roman": "Omega Rugal",
+      "original": "オメガ・ルガール"
+    }
+  },
+  "images": {
+    "face": "omegaRugal.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Scorpion Death Lock",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Reppuken",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Kaiser Wave",
+        "input": ":f::hcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Dark Barrier",
+        "input": ":qcf:+[B] {or} [D]"
+      },
+      {
+        "name": "Genocide Cutter",
+        "input": ":qcb::ub:+[B] {or} [D]"
+      },
+      {
+        "name": "God Press",
+        "input": ":hcb:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Gigantic Pressure",
+        "input": ":hcb::hcb:+[C]"
+      }
+    ]
+  }
+}
