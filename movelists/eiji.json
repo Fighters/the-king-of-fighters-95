@@ -18,6 +18,12 @@
         "input": "{close}, :b: {or} :f:+[C] {or} [D]"
       }
     ],
+    "{commandMoves}": [
+      {
+        "name": "Wall Jump",
+        "input": "{duringJumpNearWall}, :uf:"
+      }
+    ],
     "{specialMoves}": [
       {
         "name": "Kikoho",
