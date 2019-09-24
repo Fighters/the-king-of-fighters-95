@@ -1,0 +1,50 @@
+{
+  "names": {
+    "default": {
+      "roman": "Takuma"
+    },
+    "japan": {
+      "roman": "Takuma",
+      "original": "タクマ・サカザキ"
+    }
+  },
+  "images": {
+    "face": "takuma.webp"
+  },
+  "moves": {
+    "{normalThrows}": [
+      {
+        "name": "Ippon Seoi Nage",
+        "input": "{close}, :b: {or} :f:+[C] {or} [D]"
+      }
+    ],
+    "{specialMoves}": [
+      {
+        "name": "Ko-oken",
+        "input": ":qcf:+[A] {or} [C]"
+      },
+      {
+        "name": "Zanretsuken",
+        "input": ":hcb:+[A] {or} [C]"
+      },
+      {
+        "name": "Hien Shippukyaku",
+        "input": "{charge} :db: :f:+[B] {or} [D]"
+      },
+      {
+        "name": "Shorankyaku",
+        "input": "{close}, :hcb:+[B] {or}, {far}, :hcb:+[D]"
+      },
+      {
+        "name": "Haoh Shikoken",
+        "input": ":f::hcf:+[A] {or} [C]"
+      }
+    ],
+    "{desperationMove}": [
+      {
+        "name": "Ryuko Ranbu",
+        "input": ":qcf::b::f:+[A]+[C]"
+      }
+    ]
+  }
+}
