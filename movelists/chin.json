@@ -14,7 +14,7 @@
   "moves": {
     "{normalThrows}": [
       {
-        "name": "Go Inshu",
+        "name": "Goinshu",
         "input": "{close}, :b: {or} :f:+[C]"
       },
       {

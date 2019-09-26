@@ -14,7 +14,7 @@
   "moves": {
     "{normalThrows}": [
       {
-        "name": "Northern Light Bomb",
+        "name": "Chokeslam Drop",
         "input": "{close}, :b: {or} :f:+[C] {or} [D]"
       }
     ],
