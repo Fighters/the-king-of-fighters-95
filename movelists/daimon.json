@@ -18,8 +18,12 @@
         "input": "{close}, :b: {or} :f:+[C]"
       },
       {
-        "name": "Hiza Guruma",
+        "name": "Okuri Ashibarai",
         "input": "{close}, :b: {or} :f:+[D]"
+      },
+      {
+        "name": "Yoko Guruma",
+        "input": "{1StepAway}, :b: {or} :f:+[C]"
       }
     ],
     "{specialMoves}": [
